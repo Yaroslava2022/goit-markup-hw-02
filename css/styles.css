@@ -86,6 +86,10 @@ body {
         color: var(--background-color);
         background-color: var(--accent-color);
 }
+.hero-button:hover,
+.hero-button:focus {
+    color: var(--accent-color);
+}
 /*-----------------Переваги----------------*/
 
 .advantages-title {
@@ -95,7 +99,7 @@ body {
         line-height:calc(16/14);
         letter-spacing: 0.03em;
         text-transform: uppercase;
-            
+         
 }
 
 .advantages-text {
@@ -183,4 +187,55 @@ body {
 .footer-tel:hover,
 .footer-tel:focus {
     color: var(--accent-color);
+}
+/*-----------------PORTFOLIO----------------*/
+/*-----------------НАШІ ПРОЄКТИ----------------*/
+
+
+
+
+.nav-button {
+    font-family: inherit;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: calc(26/16);
+        text-align: center;
+        letter-spacing: 0.03em;
+        cursor: pointer;
+        color: var(--main-title-color);
+        background-color: #F5F4FA;
+        border: none;
+}
+
+.nav-button:hover,
+.nav-button:focus {
+    color: var(--accent-color); }
+
+    .nav-list,
+        .nav-button.current {
+            color: var(--secondary-title-color);
+    
+        }
+    
+        .nav-button.current {
+            background-color: var(--accent-color);
+            }
+
+.project-title {
+  
+        font-weight: 700;
+        font-size: 18px;
+        line-height: calc(36/18);
+        letter-spacing: 0.06em;
+    
+        color: var(--main-title-color);
+}
+
+.project-type {
+    
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.03em;
+    
+        color: var(--main-text-color);
 }
